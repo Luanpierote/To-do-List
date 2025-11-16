@@ -6,9 +6,56 @@ Este  projeto de software, implementa tecnologias React e Vite, que demonstram a
 
 ### Screenshot
 
-![Preview do projeto](./src/assets/images/image.png)
+![Preview do projeto](./assets/image.png)
 
-### Built with
+## My Process
+
+### **1. Baixe ou clone o repositório**
+```sh
+git clone https://github.com/Luanpierote/To-do-List.git
+cd To-do-List
+```
+
+### **2. Instalando dependências**
+**Backend:**
+```sh
+cd server
+npm i -y
+```
+Dependências principais:
+```sh
+express
+cors
+better-sqlite3
+```
+
+**Frontend:**
+```sh
+cd client
+npm i -y
+```
+Dependências principais:
+```sh
+react
+react-dom
+axios
+vite
+```
+
+### **3. Como Rodar o Projeto**
+**Server:**
+```sh
+cd server
+npm run dev
+```
+
+**Client:**
+```sh
+cd client
+npm run dev
+```
+
+## Built with
 
 - HTML5 
 - CSS3
@@ -18,6 +65,18 @@ Este  projeto de software, implementa tecnologias React e Vite, que demonstram a
 - Better-sqlite3
 - Propriedades personalizadas CSS
 - Desktop-first workflow
+
+### **Frontend (client/)**
+- React
+- Vite
+- Axios
+- CSS puro
+
+### **Backend (server/)**
+- Node.js
+- Express
+- SQLite3 (better-sqlite3)
+- CORS
 
 ## Continued development
 
