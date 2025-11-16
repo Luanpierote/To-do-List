@@ -1,15 +1,3 @@
-import express from 'express';
-
-const app = express();
-const port = process.env.PORT || 3000
-
-
-
-app.listen(port,() =>{console.log(`Servidor inicializado na porta: http://localhost:${port}`)})
-
-
-
-/*
 meta:
 1.Aprender React do Zero(Biblioteca do node)
 2.Aprender mais fundamentos de Back End e Front End
@@ -19,8 +7,12 @@ meta:
 Oque eu fiz nesse código?
 -Instalei uma biblioteca "vite", inserindo o comando `npm create vite@latest`, que funciona como uma tecnologia 
 facilitadora para implementação de outras tecnologias(React nesse caso).
+- Axios é uma biblioteca que oferece um serviço de conexão entre servidores
+- Instalei o `npm install better-sqlite3`
 
 Oque eu compreendi realmente sobre isso?
+- O react prioriza o bom desempenho do código, ou seja, ele desabilita mudanças radicais de variáveis
+por natureza. Para mudar isso, é preciso configurar os 'useState'
 - projetocomreact_1\eslint.config.js : são configurações referentes a identação do código;
 - projetocomreact_1\index.html: O react funciona como um "facilitador", para a implementação de um html mais sofisticado;
 - projetocomreact_1\src\App.jsx: O diretório possui um componente react, que orienta as páginas HTML. 
@@ -32,14 +24,31 @@ Ou seja, para desenvolver as páginas HTML são criados componentes React
 
 - Control + espaço = mostra as possibilidades de complemento
 
+- Quando eu estiver commitando em outra maquina, eu preciso utilizar
+o `git push -u origin main`, para vincular sua branch local à branch
+remota com o mesmo nome.
+
+
 Oque falta? 
+-Banco de dados precisa ser privado para cada novo usuário
+que for testar o sistema.Ou seja, somente o responsável por
+criar a tarefa pode visualiza-la.✅
+-O diretório ./client não está conseguindo encontrar os componentes reacts, para rodar a aplicação do Front("tentei instalar uma biblioteca
+chamada "concurrently" para tentar cobrir esse erro, mas os recursos da interface gráfica ainda não estão sendo carregados corretamente.Oque deixa
+a página em branco.). Por isso,comece conferindo o package.json depois o vite.config.js para tentar localizar o erro.
+-Bloquear o registro de uma tarefa sem nome
 
 Como chegar nesse resultado? Quais são as alternativas?
-
+A biblioteca concurrently, foi uma implementação necessária para que duas portas(Client side e Server)
+pudessem ser executadas paralelamente
 
 que feedback eu posso tirar do que eu fiz?
 
 Oque um programador faria para melhorar isso?
 
 
-*/
+
+
+{Lembrar que essa solução só funciona com a API do Back End '/servidordoReact_1'}
+
+

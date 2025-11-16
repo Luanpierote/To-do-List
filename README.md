@@ -1,16 +1,31 @@
-# React + Vite
+<h1 align="center">To-do List — Projeto Pessoal </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Essa aplicação consiste em uma API, que permite com que o usuário crie e personalize a sua própria lista de tarefas.
 
-Currently, two official plugins are available:
+    Este  projeto de software, implementa tecnologias React e Vite, que demonstram agilidade,eficiencia, e flexibilidade para o processo de desenvolvimento do Front. Ele conta com a integração de bibliotecas nativas do Node.js como express, sqlLite3 para privatizar as informações locais dos usuários, e garantir praticidade na fase de teste da aplicação. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Screenshot
 
-## React Compiler
+![Preview do projeto](./src/assets/images/image.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Built with
 
-## Expanding the ESLint configuration
+- HTML5 
+- CSS3
+- JavaScript (ES6 Modules)
+- Express
+- Manipulação de DOM
+- Better-sqlite3
+- Propriedades personalizadas CSS
+- Desktop-first workflow
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Continued development
+
+    Futuramente, pretendo adicionar novas funções utilitárias no sistema. Como por exemplo, um módulo que permita o usuário definir um prazo para as suas atividade e que acompanhe o andamento das taréfas por meio da data e hora do dia, detectando se o mesmo concluiu essa taréfa no prazo correto.
+
+## Author
+
+- Website - [Luan](https://luanpierote.netlify.app/)
+- GitHub - [@Luanpierote](https://github.com/LuanPierote)
+
+
